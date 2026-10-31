@@ -1,0 +1,7 @@
+training_scope,method,difficult_validation_correct,difficult_validation_total,full_validation_correct,full_validation_total
+all_4755,independent_regression,270,355,713,798
+all_4755,fixed_fusion_lambda_0.5,279,355,722,798
+all_4755,comparison_6,281,355,724,798
+all_4755,comparison_arithmetic_8,283,355,726,798
+difficult_2114,comparison_arithmetic_8,289,355,732,798
+difficult_2114,comparison_arithmetic_surface_14,291,355,734,798

@@ -1,0 +1,15 @@
+{
+  "method": "frozen_14_feature_comparison_plus_style",
+  "base_dimension": 1024,
+  "meta_dimension": 14,
+  "training_questions": 4755,
+  "fitted_hard_questions": 2114,
+  "OOF_folds": 5,
+  "OOF_seed": 42,
+  "C": 1,
+  "max_iter": 1000,
+  "random_state": 42,
+  "source_bundle_sha256": "e5f3eee344a2bb0b8933149ba3307b744f9fcefe4de8b4a11e943c2c762a1a25",
+  "export": "exact stored scaler and classifier arrays; no retraining, precision reduction or parameter changes",
+  "selection": "selected before test; unchanged function, verified against original frozen predictions"
+}

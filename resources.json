@@ -1,0 +1,32 @@
+{
+  "inference_assets": {
+    "model.npz": {
+      "bytes": 22874,
+      "sha256": "e2a665e0182e8f7b249ddacbcef4e982795c6dc15bf30ecfacb4c027a3db863b"
+    },
+    "config.json": {
+      "bytes": 572,
+      "sha256": "683caafa4a1524e38d0672d2440b039c1243cb8b53e2ddee67fb6c192e9be177"
+    }
+  },
+  "inference_asset_bytes_excluding_hash_inventory": 23446,
+  "inference_asset_bytes_conservative_including_hash_inventory": 23600,
+  "asset_limit_bytes": 16777216,
+  "fresh_prediction_plus_independent_scoring_seconds": 0.35669174999929965,
+  "original_frozen_research_bundle_test_seconds": 0.8352486670482904,
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "local_cpu_model": "Apple M5",
+  "python": "3.12.9",
+  "numpy": "2.5.3",
+  "sklearn_training_only": "1.9.1",
+  "scipy_training_only": "1.18.1",
+  "threadpoolctl_training_only": "3.7.0",
+  "threads": 4,
+  "measurement": "external wall clock, fresh official prediction process plus separate official scoring process; startup/imports/data/asset loading/preprocessing included",
+  "reference_cpu_certification": "not measured on course Xeon Platinum 8457C",
+  "training": "CPU only; no external data or pretrained weights",
+  "clean_train_and_nested_comparison_seconds": 16.559315333957784,
+  "author": "Sun Ruoheng",
+  "student_id": "3036707434",
+  "local_cpu_model_source": "Provided by student in conversation, 2026-10-29"
+}

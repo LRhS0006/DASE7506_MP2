@@ -1,0 +1,34 @@
+{
+  "base_mean": {
+    "exact": true,
+    "max_abs_difference": 0.0
+  },
+  "base_scale": {
+    "exact": true,
+    "max_abs_difference": 0.0
+  },
+  "base_coef": {
+    "exact": true,
+    "max_abs_difference": 0.0
+  },
+  "base_intercept": {
+    "exact": true,
+    "max_abs_difference": 0.0
+  },
+  "meta_mean": {
+    "exact": true,
+    "max_abs_difference": 0.0
+  },
+  "meta_scale": {
+    "exact": true,
+    "max_abs_difference": 0.0
+  },
+  "meta_coef": {
+    "exact": true,
+    "max_abs_difference": 0.0
+  },
+  "meta_intercept": {
+    "exact": true,
+    "max_abs_difference": 0.0
+  }
+}

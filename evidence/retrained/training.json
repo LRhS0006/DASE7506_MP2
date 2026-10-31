@@ -1,0 +1,81 @@
+{
+  "train_n": 4755,
+  "hard_train_n": 2114,
+  "training_only": true,
+  "seed": 42,
+  "final_OOF_folds": 5,
+  "nested_inner_folds": 3,
+  "C": 1,
+  "max_iter": 1000,
+  "features": [
+    "own_score",
+    "other_same_answer_votes",
+    "supporter_mean_minus_own",
+    "best_competitor_max_minus_own",
+    "supporter_mean_minus_best_competitor_mean",
+    "votes_times_own_minus_best_competitor_max",
+    "has_contradiction",
+    "log1p_contradictions",
+    "log1p_characters",
+    "log1p_words",
+    "newline_density",
+    "markup_density",
+    "digit_density",
+    "confident_word_rate"
+  ],
+  "outer_folds": [
+    {
+      "fold": 0,
+      "hard_n": 427,
+      "correct": {
+        "regression": 351,
+        "comparison_baseline": 349,
+        "comparison_plus_style": 351
+      }
+    },
+    {
+      "fold": 1,
+      "hard_n": 418,
+      "correct": {
+        "regression": 333,
+        "comparison_baseline": 330,
+        "comparison_plus_style": 328
+      }
+    },
+    {
+      "fold": 2,
+      "hard_n": 438,
+      "correct": {
+        "regression": 342,
+        "comparison_baseline": 342,
+        "comparison_plus_style": 347
+      }
+    },
+    {
+      "fold": 3,
+      "hard_n": 426,
+      "correct": {
+        "regression": 330,
+        "comparison_baseline": 337,
+        "comparison_plus_style": 341
+      }
+    },
+    {
+      "fold": 4,
+      "hard_n": 405,
+      "correct": {
+        "regression": 316,
+        "comparison_baseline": 322,
+        "comparison_plus_style": 322
+      }
+    }
+  ],
+  "seconds": 16.559315333957784,
+  "warnings": [],
+  "model_sha256": "e2a665e0182e8f7b249ddacbcef4e982795c6dc15bf30ecfacb4c027a3db863b",
+  "internal_hard_totals": {
+    "regression": 1672,
+    "comparison_baseline": 1680,
+    "comparison_plus_style": 1689
+  }
+}
